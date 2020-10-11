@@ -1,1 +1,3 @@
-SpicesUpdate@claudiux/README.md
+# SpicesUpdate
+
+Development version.
