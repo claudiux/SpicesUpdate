@@ -1,3 +1,92 @@
+### v7.4.4~20240602
+  * Restarts httpLib when network interface status changes.
+
+### v7.4.3~20240531
+  * Wait a few seconds before refreshing data after a change in network status.
+
+### v7.4.2~20240805
+  * Saves memory.
+
+### v7.4.1~20240502
+  * Fixes #5969: Wait 20 seconds before executing the cache update loop, so that mintupdate runs correctly.
+
+### v7.4.0~20240423
+  * Now smoother so as not to be blocked by the cinnamon-spices.linuxmint.com server.
+  * New color when spices are updated or forgotten.
+  * Translations: New .pot file. New fr.po file.
+  * Seems to fix #5941.
+
+
+### v7.3.7~20240421
+  * Refresh action further improved.
+
+### v7.3.6~20240420
+  * Improved Refresh action.
+
+### v7.3.5~20240420
+  * Improved cache refresh management.
+
+### v7.3.4~20240419
+  * Prevents telescoping with mintupdate.
+  * Uses G. Translate to display help.
+
+### v7.3.3~20240416
+  * Code cleanup.
+
+### v7.3.2~20240415
+  * Bugfixes.
+  * Checks again after installing updates.
+
+### v7.3.1~20240415
+  * Takes into account the new location of themes.
+
+### v7.3.0~20240413
+  * Also manage Actions for nemo.
+  * Fixes #5683.
+
+### v7.2.0~20240412
+  * Removes the "Update" button from notifications for the time being. It will be available again when cinnamon-settings is compatible.
+  * Many bugfixes.
+  * TODO: Include Nemo Actions.
+
+### v7.1.2~20240412
+  * Fixes definitively #5682: now this applet also works on distributions that don't use mintupdate.
+
+### v7.1.1~20240412
+  * Fixed a bug that prevented SpiceUpdate from starting.
+
+### v7.1.0~20240411
+  * Fixes #5682 and many other bugs.
+  * TODO: Include Nemo Actions. Update all Spices of a given type.
+
+### v7.0.0~20240411
+  * Fixes #3773 #4584 #4850 #5167 #5216.
+  * This version works with Cinnamon 6.0! Even if a few adjustments need to be made.
+
+### v6.4.3~20231209
+  * Fixes #5167. Use of Soup3 (Cinnamon 6.0).
+.
+### v6.4.2~20230413
+  * Minor bugfix.
+
+
+### v6.4.1~20230309
+  * Now compatible with openSUSE.
+
+### v6.4.0~20230217
+  * Avoid to be blocked by the spices server.
+  * Add 5.6 branch.
+
+### v6.3.1~20201026
+  * Adapting SpicesUpdate@claudiux to [cinnamon/9664](https://github.com/linuxmint/cinnamon/pull/9664#event-3912970920).
+
+### v6.3.0~20201022
+  * Tooltip content: Now filtered and formatted. Some information is displayed in bold, others in italics.
+  * Settings (General tab): Possibility to define a maximum width for the content of the tooltip (in % of the screen width).
+  * Badge: Size and location changed. Now the size of this applet remains constant, with or without its badge.
+  * Network monitoring: Now continue to check for updates even if network has changed (VPN).
+  * Some optimizations.
+
 ### v6.2.0~20201012
   * Improvements (for Cinnamon 4.6 only):
     * Settings: Changing the position of the Refresh button. Remove the buttons below the lists (for future Cinnamon).
